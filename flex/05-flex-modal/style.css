@@ -64,3 +64,40 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+
+.header
+{
+  font-weight: bold;
+  font-size: 21px;  
+}
+
+.continue
+{
+  font-weight: bold;
+}
+
+.modal
+{
+  display: flex;
+
+  padding: 20px;
+  gap: 20px;
+}
+
+/*
+  Alinear correctamente los elementos de abajo de forma vertical
+*/
+.column
+{
+  display: flex;
+  flex-flow: column wrap;  
+  gap: 15px;
+}
+
+.first
+{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
